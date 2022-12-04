@@ -1,0 +1,288 @@
+{
+  "obama": [
+    {
+      "transcript": "my fellow Americans",
+      "confidence": 0.9809529185295105,
+      "timing": [
+        { "word": "my", "start_time": 3.1, "end_time": 3.5 },
+        { "word": "fellow", "start_time": 3.5, "end_time": 3.8 },
+        { "word": "Americans", "start_time": 3.8, "end_time": 3.9 }
+      ]
+    },
+    {
+      "transcript": " it has been the honor of my life to serving",
+      "confidence": 0.9713500738143921,
+      "timing": [
+        { "word": "it", "start_time": 6.0, "end_time": 6.5 },
+        { "word": "has", "start_time": 6.5, "end_time": 6.7 },
+        { "word": "been", "start_time": 6.7, "end_time": 6.9 },
+        { "word": "the", "start_time": 6.9, "end_time": 7.3 },
+        { "word": "honor", "start_time": 7.3, "end_time": 7.7 },
+        { "word": "of", "start_time": 7.7, "end_time": 7.8 },
+        { "word": "my", "start_time": 7.8, "end_time": 8.0 },
+        { "word": "life", "start_time": 8.0, "end_time": 8.2 },
+        { "word": "to", "start_time": 8.2, "end_time": 8.4 },
+        { "word": "serve you", "start_time": 8.4, "end_time": 8.8 }
+      ]
+    },
+    {
+      "transcript": " I won't stop",
+      "confidence": 0.9034401774406433,
+      "timing": [
+        { "word": "I", "start_time": 10.0, "end_time": 10.3 },
+        { "word": "won't", "start_time": 10.3, "end_time": 10.7 },
+        { "word": "stop", "start_time": 10.7, "end_time": 11.2 }
+      ]
+    },
+    {
+      "transcript": " in fact I will be right there with you as a citizen",
+      "confidence": 0.9778578877449036,
+      "timing": [
+        { "word": "in", "start_time": 12.4, "end_time": 12.8 },
+        { "word": "fact", "start_time": 12.8, "end_time": 13.1 },
+        { "word": "I", "start_time": 13.1, "end_time": 13.2 },
+        { "word": "will", "start_time": 13.2, "end_time": 13.4 },
+        { "word": "be", "start_time": 13.4, "end_time": 13.5 },
+        { "word": "right", "start_time": 13.5, "end_time": 13.8 },
+        { "word": "there", "start_time": 13.8, "end_time": 13.9 },
+        { "word": "with", "start_time": 13.9, "end_time": 14.2 },
+        { "word": "you", "start_time": 14.2, "end_time": 14.3 },
+        { "word": "as", "start_time": 14.3, "end_time": 15.0 },
+        { "word": "a", "start_time": 15.0, "end_time": 15.2 },
+        { "word": "citizen", "start_time": 15.2, "end_time": 15.6 }
+      ]
+    },
+    {
+      "transcript": " bro my remaining dates",
+      "confidence": 0.7061288356781006,
+      "timing": [
+        { "word": "for all", "start_time": 17.3, "end_time": 17.8 },
+        { "word": "my", "start_time": 17.8, "end_time": 18.8 },
+        { "word": "remaining", "start_time": 18.8, "end_time": 19.3 },
+        { "word": "days", "start_time": 19.3, "end_time": 19.7 }
+      ]
+    },
+    {
+      "transcript": " but for now whether you are young or whether you're young at heart",
+      "confidence": 0.9659764170646667,
+      "timing": [
+        { "word": "but", "start_time": 21.0, "end_time": 21.4 },
+        { "word": "for", "start_time": 21.4, "end_time": 21.6 },
+        { "word": "now", "start_time": 21.6, "end_time": 21.7 },
+        { "word": "whether", "start_time": 21.7, "end_time": 22.3 },
+        { "word": "you", "start_time": 22.3, "end_time": 22.5 },
+        { "word": "are", "start_time": 22.5, "end_time": 22.7 },
+        { "word": "young", "start_time": 22.7, "end_time": 23.1 },
+        { "word": "or", "start_time": 23.1, "end_time": 23.4 },
+        { "word": "whether", "start_time": 23.4, "end_time": 23.7 },
+        { "word": "you're", "start_time": 23.7, "end_time": 23.8 },
+        { "word": "young", "start_time": 23.8, "end_time": 24.1 },
+        { "word": "at", "start_time": 24.1, "end_time": 24.2 },
+        { "word": "heart", "start_time": 24.2, "end_time": 24.3 }
+      ]
+    },
+    {
+      "transcript": " I do have one final ask of you as your present",
+      "confidence": 0.9528396725654602,
+      "timing": [
+        { "word": "I", "start_time": 25.7, "end_time": 26.0 },
+        { "word": "do", "start_time": 26.0, "end_time": 26.3 },
+        { "word": "have", "start_time": 26.3, "end_time": 26.5 },
+        { "word": "one", "start_time": 26.5, "end_time": 26.8 },
+        { "word": "final", "start_time": 26.8, "end_time": 27.1 },
+        { "word": "ask", "start_time": 27.1, "end_time": 27.5 },
+        { "word": "of", "start_time": 27.5, "end_time": 27.6 },
+        { "word": "you", "start_time": 27.6, "end_time": 27.8 },
+        { "word": "as", "start_time": 27.8, "end_time": 28.6 },
+        { "word": "your", "start_time": 28.6, "end_time": 28.7 },
+        { "word": "president", "start_time": 28.7, "end_time": 29.2 }
+      ]
+    },
+    {
+      "transcript": " the same thing I asked when you took a chance on me 8 years ago",
+      "confidence": 0.9646281003952026,
+      "timing": [
+        { "word": "the", "start_time": 30.2, "end_time": 30.5 },
+        { "word": "same", "start_time": 30.5, "end_time": 30.9 },
+        { "word": "thing", "start_time": 30.9, "end_time": 31.0 },
+        { "word": "I", "start_time": 31.0, "end_time": 31.3 },
+        { "word": "asked", "start_time": 31.3, "end_time": 31.7 },
+        { "word": "when", "start_time": 31.7, "end_time": 31.8 },
+        { "word": "you", "start_time": 31.8, "end_time": 31.9 },
+        { "word": "took", "start_time": 31.9, "end_time": 32.0 },
+        { "word": "a", "start_time": 32.0, "end_time": 32.2 },
+        { "word": "chance", "start_time": 32.2, "end_time": 32.3 },
+        { "word": "on", "start_time": 32.3, "end_time": 32.7 },
+        { "word": "me", "start_time": 32.7, "end_time": 33.0 },
+        { "word": "8", "start_time": 33.0, "end_time": 33.2 },
+        { "word": "years", "start_time": 33.2, "end_time": 33.5 },
+        { "word": "ago", "start_time": 33.5, "end_time": 33.6 }
+      ]
+    },
+    {
+      "transcript": " I'm asking you to believe",
+      "confidence": 0.9522989988327026,
+      "timing": [
+        { "word": "I'm", "start_time": 34.9, "end_time": 35.4 },
+        { "word": "asking", "start_time": 35.4, "end_time": 35.9 },
+        { "word": "you", "start_time": 35.9, "end_time": 36.4 },
+        { "word": "to", "start_time": 36.4, "end_time": 36.6 },
+        { "word": "believe", "start_time": 36.6, "end_time": 36.9 }
+      ]
+    },
+    {
+      "transcript": " not in my ability to bring about change but anyways",
+      "confidence": 0.9739969968795776,
+      "timing": [
+        { "word": "not", "start_time": 38.3, "end_time": 38.9 },
+        { "word": "in", "start_time": 38.9, "end_time": 39.1 },
+        { "word": "my", "start_time": 39.1, "end_time": 39.3 },
+        { "word": "ability", "start_time": 39.3, "end_time": 40.0 },
+        { "word": "to", "start_time": 40.0, "end_time": 40.0 },
+        { "word": "bring", "start_time": 40.0, "end_time": 40.3 },
+        { "word": "about", "start_time": 40.3, "end_time": 40.5 },
+        { "word": "change", "start_time": 40.5, "end_time": 41.1 },
+        { "word": "but", "start_time": 41.1, "end_time": 41.3 },
+        { "word": "in yours", "start_time": 41.3, "end_time": 41.8 }
+      ]
+    },
+    {
+      "transcript": " I'm asking you to hold fast to that Faith written into our founding documents",
+      "confidence": 0.9582347273826599,
+      "timing": [
+        { "word": "I'm", "start_time": 42.8, "end_time": 43.3 },
+        { "word": "asking", "start_time": 43.3, "end_time": 43.8 },
+        { "word": "you", "start_time": 43.8, "end_time": 43.8 },
+        { "word": "to", "start_time": 43.8, "end_time": 43.9 },
+        { "word": "hold", "start_time": 43.9, "end_time": 44.3 },
+        { "word": "fast", "start_time": 44.3, "end_time": 44.8 },
+        { "word": "to", "start_time": 44.8, "end_time": 44.9 },
+        { "word": "that", "start_time": 44.9, "end_time": 45.0 },
+        { "word": "Faith", "start_time": 45.0, "end_time": 45.6 },
+        { "word": "written", "start_time": 45.6, "end_time": 46.2 },
+        { "word": "into", "start_time": 46.2, "end_time": 46.5 },
+        { "word": "our", "start_time": 46.5, "end_time": 46.5 },
+        { "word": "founding", "start_time": 46.5, "end_time": 47.0 },
+        { "word": "documents", "start_time": 47.0, "end_time": 47.1 }
+      ]
+    },
+    {
+      "transcript": " that I do whisper like slaves and Evolutions that Spirit sung by immigrants and homesteaders and those who March for justice",
+      "confidence": 0.9053492546081543,
+      "timing": [
+        { "word": "that", "start_time": 48.7, "end_time": 49.1 },
+        { "word": "I", "start_time": 49.1, "end_time": 49.2 },
+        { "word": "do", "start_time": 49.2, "end_time": 49.4 },
+        { "word": "whisper", "start_time": 49.4, "end_time": 49.8 },
+        { "word": "like", "start_time": 49.8, "end_time": 50.1 },
+        { "word": "slaves", "start_time": 50.1, "end_time": 51.2 },
+        { "word": "and", "start_time": 51.2, "end_time": 51.3 },
+        { "word": "revolutions", "start_time": 51.3, "end_time": 51.9 },
+        { "word": "that", "start_time": 51.9, "end_time": 53.0 },
+        { "word": "Spirit", "start_time": 53.0, "end_time": 53.6 },
+        { "word": "sung", "start_time": 53.6, "end_time": 53.9 },
+        { "word": "by", "start_time": 53.9, "end_time": 54.1 },
+        { "word": "immigrants", "start_time": 54.1, "end_time": 54.6 },
+        { "word": "and", "start_time": 54.6, "end_time": 55.0 },
+        { "word": "homesteaders", "start_time": 55.0, "end_time": 55.7 },
+        { "word": "and", "start_time": 55.7, "end_time": 56.3 },
+        { "word": "those", "start_time": 56.3, "end_time": 56.6 },
+        { "word": "who", "start_time": 56.6, "end_time": 56.7 },
+        { "word": "March", "start_time": 56.7, "end_time": 57.0 },
+        { "word": "for", "start_time": 57.0, "end_time": 57.2 },
+        { "word": "justice", "start_time": 57.2, "end_time": 57.3 }
+      ]
+    },
+    {
+      "transcript": " that Creed reaffirmed by those who planted flags from foreign Battlefield to the surface of the Moon I create at the core of every American who story is not yet written",
+      "confidence": 0.9393666386604309,
+      "timing": [
+        { "word": "that", "start_time": 59.2, "end_time": 59.6 },
+        { "word": "Creed", "start_time": 59.6, "end_time": 60.1 },
+        { "word": "reaffirmed", "start_time": 60.1, "end_time": 61.4 },
+        { "word": "by", "start_time": 61.4, "end_time": 61.5 },
+        { "word": "those", "start_time": 61.5, "end_time": 61.8 },
+        { "word": "who", "start_time": 61.8, "end_time": 62.0 },
+        { "word": "planted", "start_time": 62.0, "end_time": 62.3 },
+        { "word": "flags", "start_time": 62.3, "end_time": 62.9 },
+        { "word": "from", "start_time": 62.9, "end_time": 63.2 },
+        { "word": "foreign", "start_time": 63.2, "end_time": 63.8 },
+        { "word": "Battlefield", "start_time": 63.8, "end_time": 64.5 },
+        { "word": "to", "start_time": 64.5, "end_time": 64.7 },
+        { "word": "the", "start_time": 64.7, "end_time": 64.8 },
+        { "word": "surface", "start_time": 64.8, "end_time": 65.1 },
+        { "word": "of", "start_time": 65.1, "end_time": 65.2 },
+        { "word": "the", "start_time": 65.2, "end_time": 65.3 },
+        { "word": "Moon", "start_time": 65.3, "end_time": 65.5 },
+        { "word": "I", "start_time": 65.5, "end_time": 66.5 },
+        { "word": "create", "start_time": 66.5, "end_time": 67.0 },
+        { "word": "at", "start_time": 67.0, "end_time": 67.1 },
+        { "word": "the", "start_time": 67.1, "end_time": 67.2 },
+        { "word": "core", "start_time": 67.2, "end_time": 67.6 },
+        { "word": "of", "start_time": 67.6, "end_time": 67.7 },
+        { "word": "every", "start_time": 67.7, "end_time": 68.1 },
+        { "word": "American", "start_time": 68.1, "end_time": 68.3 },
+        { "word": "who", "start_time": 68.3, "end_time": 68.8 },
+        { "word": "story", "start_time": 68.8, "end_time": 69.2 },
+        { "word": "is", "start_time": 69.2, "end_time": 69.3 },
+        { "word": "not", "start_time": 69.3, "end_time": 69.5 },
+        { "word": "yet", "start_time": 69.5, "end_time": 69.6 },
+        { "word": "written", "start_time": 69.6, "end_time": 69.8 }
+      ]
+    },
+    {
+      "transcript": " yes we can",
+      "confidence": 0.9481773376464844,
+      "timing": [
+        { "word": "yes", "start_time": 71.6, "end_time": 72.1 },
+        { "word": "we", "start_time": 72.1, "end_time": 72.2 },
+        { "word": "can", "start_time": 72.2, "end_time": 72.4 }
+      ]
+    },
+    {
+      "transcript": " yes we did",
+      "confidence": 0.9876291155815125,
+      "timing": [
+        { "word": "yes", "start_time": 74.0, "end_time": 74.5 },
+        { "word": "we", "start_time": 74.5, "end_time": 74.6 },
+        { "word": "did", "start_time": 74.6, "end_time": 74.9 }
+      ]
+    },
+    {
+      "transcript": " yes we can",
+      "confidence": 0.976445198059082,
+      "timing": [
+        { "word": "yes", "start_time": 76.1, "end_time": 76.6 },
+        { "word": "we", "start_time": 76.6, "end_time": 76.7 },
+        { "word": "can", "start_time": 76.7, "end_time": 76.9 }
+      ]
+    },
+    {
+      "transcript": " thank you God bless you",
+      "confidence": 0.9814634323120117,
+      "timing": [
+        { "word": "thank", "start_time": 78.6, "end_time": 79.1 },
+        { "word": "you", "start_time": 79.1, "end_time": 79.2 },
+        { "word": "God", "start_time": 79.2, "end_time": 79.8 },
+        { "word": "bless", "start_time": 79.8, "end_time": 80.0 },
+        { "word": "you", "start_time": 80.0, "end_time": 80.2 }
+      ]
+    },
+    {
+      "transcript": " may God continue to bless the United States of America",
+      "confidence": 0.9792712926864624,
+      "timing": [
+        { "word": "may", "start_time": 81.3, "end_time": 81.7 },
+        { "word": "God", "start_time": 81.7, "end_time": 82.0 },
+        { "word": "continue", "start_time": 82.0, "end_time": 82.3 },
+        { "word": "to", "start_time": 82.3, "end_time": 82.7 },
+        { "word": "bless", "start_time": 82.7, "end_time": 82.8 },
+        { "word": "the", "start_time": 82.8, "end_time": 83.6 },
+        { "word": "United", "start_time": 83.6, "end_time": 83.8 },
+        { "word": "States", "start_time": 83.8, "end_time": 83.9 },
+        { "word": "of", "start_time": 83.9, "end_time": 84.2 },
+        { "word": "America", "start_time": 84.2, "end_time": 84.7 }
+      ]
+    }
+  ]
+}
