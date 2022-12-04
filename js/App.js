@@ -1,19 +1,3 @@
-/**
-CREATIVE CODING
----
-Kill server : CTRL + C
-Start server : npm run start
-Start secure server : npm run start-https
-Final build : npm run build
----
-To generate new certificate for https connection with external device run :
-#sh
-mkcert 0.0.0.0 localhost 127.0.0.1 yourLocalIP ::1
-mv 0.0.0.0+4-key.pem certificate.key
-mv 0.0.0.0+4.pem certificate.cert
-**/
-
-// import Playground from "@onemorestudio/playgroundjs";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 //import font loader
@@ -76,41 +60,30 @@ export default class App {
     this.camera.position.x = 0;
     this.camera.lookAt(0, 0, 0);
 
+    // this.scene.fog = new THREE.Fog(0x000000, 0.005, 50);
+
     // add light
     const light = new THREE.AmbientLight(0x333333);
     this.scene.add(light);
-    // this.scene.fog = new THREE.Fog(0x000000, 0.005, 50);
-    // add directional light
-    // this.directionalLight = new THREE.DirectionalLight(0xdddddd, 0.7);
+
     this.directionalLight = new THREE.SpotLight(0xffffff, 1, 0, Math.PI / 4, 1);
     this.directionalLight.castShadow = true;
     this.directionalLight.position.set(0, 10, 8);
     this.scene.add(this.directionalLight);
 
-    //add endless white plane as ground
+    //add "endless" grey plane as ground
     const planeGeometry = new THREE.PlaneGeometry(1200, 1200);
     const planeMaterial = new THREE.MeshStandardMaterial({
       color: 0xcccccc,
     });
 
-    // const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xcccccc });
     const plane = new THREE.Mesh(planeGeometry, planeMaterial);
     plane.receiveShadow = true;
     plane.rotateX(-Math.PI / 2);
     //set plane double sided
     plane.material.side = THREE.DoubleSide;
-    // plane.position.y = -1;
-    // plane.receiveShadow = true;
+
     this.scene.add(plane);
-    //detect shadows
-    // plane.receiveShadow = true;
-
-    //  add cube on scene
-    // const geometry = new THREE.BoxGeometry();
-    // const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    // this.cube = new THREE.Mesh(geometry, material);
-    // this.scene.add(this.cube);
-
     this.animate();
   }
 
@@ -153,33 +126,11 @@ export default class App {
   }
 
   createText(text, previousTime) {
+    //counter to randomize disposition
     this.counter++;
-    // document.body.textContent = text;
     this.showWords(false, previousTime);
     // add text on scene
     const loader = new FontLoader();
-    //load google sans font
-    // generator : https://gero3.github.io/facetype.js/
-    // this.position += 3;
-    // this.camera.goal = this.position;
-    // this.counter++;
-
-    // ////////////////////////////////////////////////
-    // //Create a sphere that cast shadows (but does not receive them)
-    // const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
-    // const sphereMaterial = new THREE.MeshPhongMaterial({
-    //   color: 0xcccccc,
-    //   specular: 0xffffff,
-    //   shininess: 16,
-    //   // flatShading: true,
-    // });
-    // const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-    // sphere.position.z = this.position;
-    // sphere.position.y = 1;
-    // sphere.castShadow = true; //default is false
-    // sphere.receiveShadow = true; //default
-    // this.scene.add(sphere);
-
     loader.load(
       "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/fonts/helvetiker_regular.typeface.json",
       (font) => {
@@ -194,44 +145,21 @@ export default class App {
           bevelOffset: 0,
           bevelSegments: 1,
         });
-        // const material = new THREE.MeshBasicMaterial({ color: 0xffffff });
         const material = new THREE.MeshPhongMaterial({
-          // side: THREE.DoubleSide,
           color: 0xffffff,
           flatShading: false,
         });
         this.text = new THREE.Mesh(geometry, material);
-        // this.text.position.y = -1;
         if (this.counter % 3 == 0) this.text.rotateZ(Math.PI / 2);
-
         this.position += 3;
         this.camera.goal = this.position + 5;
-
         this.text.castShadow = true;
         this.text.receiveShadow = true;
         this.text.position.z = this.position;
         this.text.position.x = this.position % 2 == 0 ? -1 : 1;
         this.text.position.y = 0;
-        // this.camera.position.z += 3;
 
-        //camera look at text
-        // this.camera.lookAt(this.text.position);
         this.scene.add(this.text);
-
-        // ////////////////////////////////////////////////
-        // //Create a sphere that cast shadows (but does not receive them)
-        // const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
-        // const sphereMaterial = new THREE.MeshPhongMaterial({
-        //   color: 0xcccccc,
-        //   specular: 0xffffff,
-        //   shininess: 16,
-        //   // flatShading: true,
-        // });
-        // const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-        // sphere.position.z = this.position;
-        // sphere.castShadow = true; //default is false
-        // // sphere.receiveShadow = false; //default
-        // this.scene.add(sphere);
       } //end of load callback
     );
   }
@@ -239,18 +167,14 @@ export default class App {
   animate() {
     this.angle += 0.001;
     this.camera.position.x = Math.cos(this.angle) * 1;
-    // this.camera.position.z = this.camera.goal;
+    // smooth camera movement
     this.camera.position.z = this.lerp(
       this.camera.position.z,
       this.camera.goal,
       0.05
     );
     this.camera.lookAt(0, 0, 0);
-    // this.directionalLight.position.set(
-    //   this.camera.position.x,
-    //   this.camera.position.y,
-    //   this.camera.position.z
-    // );
+    //set the spotlight position to the camera position
     this.directionalLight.position.z = this.camera.position.z + 8;
     this.directionalLight.position.y = 5;
     requestAnimationFrame(this.animate.bind(this));
